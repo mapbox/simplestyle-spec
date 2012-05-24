@@ -16,8 +16,6 @@ the pre-existing [GeoJSON](http://geojson.org/) data standard that
 define styles. As such, files implementing `simplestyle` are by
 definition valid GeoJSON files and valid [JSON](http://json.org/) files.
 
-Since JSON
-
 ```javascript
 {
     "type": "FeatureCollection",
@@ -27,14 +25,14 @@ Since JSON
             "coordinates": [0, 0]
         },
         "properties": {
-            // OPTIONAL: default "pin"
-            // the basic marker shape
-            "marker-shape": "pin",
-
             // OPTIONAL: default "medium"
             // specify the size of the marker. sizes
             // can be different pixel sizes in different
             // implementations
+            // Value must be one of
+            // "small"
+            // "medium"
+            // "large"
             "marker-size": "medium",
 
             // OPTIONAL: default ""
