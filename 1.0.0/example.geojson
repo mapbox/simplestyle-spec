@@ -1,0 +1,15 @@
+{
+    "type": "FeatureCollection",
+    "features": [{ "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [0, 0]
+        },
+        "properties": {
+            "marker-shape": "pin",
+            "marker-size": "medium",
+            "marker-symbol": "bus",
+            "marker-color": "#fff"
+        }
+    }]
+}
