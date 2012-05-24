@@ -1,4 +1,4 @@
-## geojson-style-spec
+## simplestyle-spec
 
 A simple specification for styling GeoJSON data.
 
