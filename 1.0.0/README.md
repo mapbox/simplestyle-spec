@@ -49,6 +49,10 @@ definition valid GeoJSON files and valid [JSON](http://json.org/) files.
             // a symbol to position in the center of this icon
             // if not provided or "", no symbol is overlaid
             // and only the marker is shown
+            // Allowed values include
+            // - Icon ID from the Maki project at http://mapbox.com/maki/
+            // - An integer 0 through 9
+            // - A lowercase charecter "a" through "z"
             "marker-symbol": "bus",
 
             // OPTIONAL: default "7e7e7e"
