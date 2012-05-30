@@ -9,6 +9,8 @@ A simple specification for styling GeoJSON data.
 Initial release: this defines only three keys
 and an example encoding.
 
+## [Implementations](https://github.com/mapbox/simplestyle-spec/wiki/Implementations)
+
 ## Authors
 
 * Tom MacWright
