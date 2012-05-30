@@ -25,6 +25,16 @@ definition valid GeoJSON files and valid [JSON](http://json.org/) files.
             "coordinates": [0, 0]
         },
         "properties": {
+            // OPTIONAL: default ""
+            // A title to show when this item is clicked or
+            // hovered over
+            "title": "A title",
+
+            // OPTIONAL: default ""
+            // A description to show when this item is clicked or
+            // hovered over
+            "description": "A description",
+
             // OPTIONAL: default "medium"
             // specify the size of the marker. sizes
             // can be different pixel sizes in different
