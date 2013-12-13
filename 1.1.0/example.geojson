@@ -6,7 +6,6 @@
             "coordinates": [0, 0]
         },
         "properties": {
-            "marker-shape": "pin",
             "marker-size": "medium",
             "marker-symbol": "bus",
             "marker-color": "#ace"

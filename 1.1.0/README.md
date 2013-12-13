@@ -59,12 +59,11 @@ definition valid GeoJSON files and valid [JSON](http://json.org/) files.
             // Allowed values include
             // - Icon ID from the Maki project at http://mapbox.com/maki/
             // - An integer 0 through 9
-            // - A lowercase charecter "a" through "z"
+            // - A lowercase character "a" through "z"
             "marker-symbol": "bus",
 
             // OPTIONAL: default "7e7e7e"
-            // the color or the marker is by default
-            // a color to which the graphic is tinted
+            // the marker's color
             //
             // value must follow COLOR RULES
             "marker-color": "#fff"
