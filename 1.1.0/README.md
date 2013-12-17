@@ -22,6 +22,7 @@ definition valid GeoJSON files and valid [JSON](http://json.org/) files.
 //   "#ace"
 // or long form
 //   "#aaccee"
+// with or without the # prefix.
 // But other color formats or named colors
 // are not supported
 {
@@ -68,12 +69,12 @@ definition valid GeoJSON files and valid [JSON](http://json.org/) files.
             // value must follow COLOR RULES
             "marker-color": "#fff"
 
-            // OPTIONAL: default "f0f0f0"
+            // OPTIONAL: default "555555"
             // the color of a line as part of a polygon, polyline, or
             // multigeometry
             //
             // value must follow COLOR RULES
-            "stroke": "#f0f0f0"
+            "stroke": "#555555"
 
             // OPTIONAL: default 0.6
             // the opacity of the line component of a polygon, polyline, or
@@ -81,7 +82,7 @@ definition valid GeoJSON files and valid [JSON](http://json.org/) files.
             //
             // value must be a floating point number greater than or equal to
             // zero and less or equal to than one
-            "stroke-opacity": 0.6
+            "stroke-opacity": 1.0
 
             // OPTIONAL: default 2
             // the width of the line component of a polygon, polyline, or
@@ -90,18 +91,18 @@ definition valid GeoJSON files and valid [JSON](http://json.org/) files.
             // value must be a floating point number greater than or equal to 0
             "stroke-width": 2
 
-            // OPTIONAL: default "f0f0f0"
+            // OPTIONAL: default "555555"
             // the color of the interior of a polygon
             //
             // value must follow COLOR RULES
-            "fill": "#f0f0f0"
+            "fill": "#555555"
 
             // OPTIONAL: default 0.6
             // the opacity of the interior of a polygon
             //
             // value must be a floating point number greater than or equal to
             // zero and less or equal to than one
-            "fill-opacity": 0.6
+            "fill-opacity": 0.5
         }
     }]
 }
