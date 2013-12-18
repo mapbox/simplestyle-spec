@@ -88,7 +88,7 @@ are encouraged to set `fill` to 0 by default in that case.
             // value must follow COLOR RULES
             "stroke": "#555555"
 
-            // OPTIONAL: default 0.6
+            // OPTIONAL: default 1.0
             // the opacity of the line component of a polygon, polyline, or
             // multigeometry
             //
