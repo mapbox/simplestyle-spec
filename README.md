@@ -4,6 +4,10 @@ A simple specification for styling GeoJSON data.
 
 ## Versions
 
+### 1.1.0
+
+Adds properties to permit styling of Polygon and LineString types.
+
 ### 1.0.0
 
 Initial release: this defines only three keys
