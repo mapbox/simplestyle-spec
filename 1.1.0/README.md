@@ -22,7 +22,7 @@ The entirety of the `simplestyle` spec is optional, so any combination of
 specified properties are valid. When properties are not given, the defaults
 below are assumed by implementations.
 
-Multi features are assumed to have the same styling rules as single features&mdash;
+Multi features are assumed to have the same styling rules as single features---
 MultiPoints are styled as Points, MultiPolygons as Polygons, and MultiLineStrings
 as LineStrings. `marker` styles do not affect `stroke` and `fill` rules and vice versa.
 The behavior of `fill` rules on LineStrings is undefined, but implementations
