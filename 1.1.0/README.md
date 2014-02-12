@@ -79,14 +79,14 @@ are encouraged to set `fill` to 0 by default in that case.
             // the marker's color
             //
             // value must follow COLOR RULES
-            "marker-color": "#fff"
+            "marker-color": "#fff",
 
             // OPTIONAL: default "555555"
             // the color of a line as part of a polygon, polyline, or
             // multigeometry
             //
             // value must follow COLOR RULES
-            "stroke": "#555555"
+            "stroke": "#555555",
 
             // OPTIONAL: default 1.0
             // the opacity of the line component of a polygon, polyline, or
@@ -94,20 +94,20 @@ are encouraged to set `fill` to 0 by default in that case.
             //
             // value must be a floating point number greater than or equal to
             // zero and less or equal to than one
-            "stroke-opacity": 1.0
+            "stroke-opacity": 1.0,
 
             // OPTIONAL: default 2
             // the width of the line component of a polygon, polyline, or
             // multigeometry
             //
             // value must be a floating point number greater than or equal to 0
-            "stroke-width": 2
+            "stroke-width": 2,
 
             // OPTIONAL: default "555555"
             // the color of the interior of a polygon
             //
             // value must follow COLOR RULES
-            "fill": "#555555"
+            "fill": "#555555",
 
             // OPTIONAL: default 0.6
             // the opacity of the interior of a polygon. implementations
