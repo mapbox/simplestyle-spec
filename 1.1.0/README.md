@@ -35,6 +35,8 @@ are encouraged to set `fill` to 0 by default in that case.
 // or long form
 //   "#aaccee"
 // with or without the # prefix.
+// Colors are interpreted the same as in CSS,
+// in #RRGGBB and #RGB order.
 // But other color formats or named colors
 // are not supported
 {
