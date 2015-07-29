@@ -22,7 +22,7 @@ The entirety of the `simplestyle` spec is optional, so any combination of
 specified properties are valid. When properties are not given, the defaults
 below are assumed by implementations.
 
-Multi features are assumed to have the same styling rules as single features -
+Multi features are assumed to have the same styling rules as single features---
 MultiPoints are styled as Points, MultiPolygons as Polygons, and MultiLineStrings
 as LineStrings. `marker` styles do not affect `stroke` and `fill` rules and vice versa.
 The behavior of `fill` rules on LineStrings is undefined, but implementations
@@ -112,7 +112,7 @@ are encouraged to set `fill` to 0 by default in that case.
             "fill": "#555555",
 
             // OPTIONAL: default 0.6
-            // the opacity of the interior of a polygon. implementations
+            // the opacity of the interior of a polygon. Implementations
             // may choose to set this to 0 for line features.
             //
             // value must be a floating point number greater than or equal to
