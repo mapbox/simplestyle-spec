@@ -72,7 +72,7 @@ are encouraged to set `fill` to 0 by default in that case.
             // if not provided or "", no symbol is overlaid
             // and only the marker is shown
             // Allowed values include
-            // - Icon ID from the Maki project at http://mapbox.com/maki/
+            // - Icon ID
             // - An integer 0 through 9
             // - A lowercase character "a" through "z"
             "marker-symbol": "bus",
